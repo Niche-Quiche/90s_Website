@@ -1,0 +1,145 @@
+.headline {
+color: white;
+background-color: black;
+font-family: monospace;
+font-size: 30px;
+}
+
+
+body {
+text-align: center;
+font-family: 'Patua One', cursive;
+background-image: url('mask.jpg');
+}
+
+
+h1 {
+font-size: 110px;
+color: red;
+}
+
+h5 {
+font-size: 20px;
+margin-bottom: 55px;
+color: red;
+}
+
+p {
+text-align: center;
+line-height: 35px;
+word-spacing: 2px;
+margin-top: 100px;
+color: red;
+}
+
+.vik {
+color: red;
+font: monospace;
+
+}
+
+
+.info {
+padding: 30px;
+margin: 50px;
+}
+
+.info:hover:after {
+content: ' ';
+position: absolute;
+left: 10px;
+right: 0;
+top: 20px;
+bottom: 20px;
+opacity: 0.5;
+background-image: url(flames.jpg);
+}
+
+
+.im1 {
+background-image:url(two.jpg);
+height: 300px;
+width: 300px;
+transition: 1s;
+}
+
+.im1:hover {
+background-image: url(flex.jpg);
+width:300px;
+transition:1s;
+}   
+
+
+.bounce {
+display: inline-block;
+position: relative;
+-moz-animation: bounce 1s infinite linear;
+-o-animation: bounce .1s infinite linear;
+-webkit-animation: bounce 0.5s infinite linear;
+animation: bounce 1s infinite linear;
+color:000;
+}
+
+.iframe1 {
+margin: 50px 0px 300px 0px;
+padding: 35px;
+}
+
+.iframe2 {
+margin: 50px 0px 300px 0px;
+padding: 35px;
+}
+
+.bounce {
+display: inline-block;
+position: relative;
+-moz-animation: bounce 1s infinite linear;
+-o-animation: bounce .1s infinite linear;
+-webkit-animation: bounce 0.5s infinite linear;
+animation: bounce 1s infinite linear;
+color:000;
+}
+
+.fa-music {
+padding-bottom: 400px;
+margin: 0px 100px 800px 0px;
+color: red;
+font-size: 70px;
+margin: 10px;
+margin-left: 90px;
+}
+
+@-webkit-keyframes bounce {
+0% { top: 0; }
+50% { top: -0.2em; }
+70% { top: -0.3em; }
+100% { top: 0; }
+}
+
+@-moz-keyframes bounce {
+0% { top: 0; }
+50% { top: -0.2em; }
+70% { top: -0.3em; }
+100% { top: 0; }
+}
+
+@-o-keyframes bounce {
+0% { top: 0; }
+50% { top: -0.2em; }
+70% { top: -0.3em; }
+100% { top: 0; }
+}
+
+@-ms-keyframes bounce {
+0% { top: 0; }
+50% { top: -0.2em; }
+70% { top: -0.3em; }
+100% { top: 0; }
+}
+
+@keyframes bounce {
+0% { top: 0; }
+50% { top: -0.2em; }
+70% { top: -0.3em; }
+100% { top: 0; }
+}
